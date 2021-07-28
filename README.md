@@ -6,7 +6,7 @@ Developed as part of a research internship at IIT, Varansi.
 
 An RNN is created by applying similar weights recursively to a differentiable graph in topological order. In an RNN, all inputs are related and in each loop the relation between these inputs helps predict the next sequence.
 
-![RNN Diagram](https://github.com/callmekaul/Neural-Machine-Translation/master/images/rnn.png?raw=true)
+![RNN Diagram](https://github.com/callmekaul/Neural-Machine-Translation/images/rnn.png?raw=true)
 
 For input x(0), there is an output h(0), which is also passed to the next step along with the input x(1). This gives output h(1), which is the input for the next step and so on. This helps the RNN give context from previous inputs in the sequence.
 
@@ -19,7 +19,7 @@ In our encoder-decoder model, the context vector passed from encoder carries the
 
 The model we have used is a sequence to sequence, or encoder-decoder model. It uses its own output as input for next steps. The encoder outputs a vector derived from input sequences of source language. This output, along with the context vector is fed into the decoder which in turn converts them into the output sequences.
 
-![Seq2Seq Diagram](https://github.com/callmekaul/Neural-Machine-Translation/master/images/seq2seq.png?raw=true)
+![Seq2Seq Diagram](https://github.com/callmekaul/Neural-Machine-Translation/images/seq2seq.png?raw=true)
 
 The encoder reads each symbol x in a sequence sequentially and changes the hidden state according to the equation :-
 
