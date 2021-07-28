@@ -1,7 +1,7 @@
 # NEURAL MACHINE TRANSLATION MODELS
 
 Developed as part of a research internship at IIT, Varansi. 
-Improved BLEU scroes (translation accuracy) substantially by utilizing Byte-Pair Encoding while creating sentence pairs for the model. The words were broken down into most often occuring pairs of subwords and these were replaced by bytes of data.
+Improved BLEU scroes (translation accuracy) substantially by utilizing Byte-Pair Encoding while creating the sentence pairs for the model. The words were broken down into most often occuring pairs of subwords and these were replaced by bytes of data.
 
 Using the BPE approach, BLEU scores improved by **62%** (0.29 -> 0.47).
 
