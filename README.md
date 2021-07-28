@@ -3,7 +3,7 @@
 Developed as part of a research internship at IIT, Varansi. 
 Improved BLEU scroes (translation accuracy) substantially by utilizing Byte-Pair Encoding while creating the sentence pairs for the model. The words were broken down into most often occuring pairs of subwords and these were replaced by bytes of data.
 
-Using the BPE approach, BLEU scores improved by **62%** (0.29 -> 0.47).
+Using the BPE approach, BLEU scores improved by **41%** (0.17 -> 0.24) while using the AdaDelta optimizer.
 
 Further, an **attention mechanism** and **Fine-Tuning** with **transfer learning** was utilized in the RNN to further improve the scores for Indian Languages like Nepali, Gujarati and Marathi.
 
